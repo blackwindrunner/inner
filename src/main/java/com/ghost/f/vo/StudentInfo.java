@@ -1,4 +1,4 @@
-package com.ghost.f.inner.vo;
+package com.ghost.f.vo;
 
 import lombok.Data;
 

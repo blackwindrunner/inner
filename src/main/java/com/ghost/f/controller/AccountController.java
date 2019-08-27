@@ -1,6 +1,6 @@
-package com.ghost.f.inner.controller;
+package com.ghost.f.controller;
 
-import com.ghost.f.inner.vo.StudentInfo;
+import com.ghost.f.vo.StudentInfo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

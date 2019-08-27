@@ -1,4 +1,4 @@
-package com.ghost.f.inner;
+package com.ghost.f;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

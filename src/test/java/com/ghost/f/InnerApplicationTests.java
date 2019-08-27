@@ -1,4 +1,4 @@
-package com.ghost.f.inner;
+package com.ghost.f;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
