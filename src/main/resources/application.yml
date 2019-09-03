@@ -1,0 +1,35 @@
+spring:
+  profiles:
+      active: dev
+  thymeleaf:
+     cache: false
+     prefix: classpath:/templates/
+     suffix: .html
+     encoding: UTF-8
+     mode: HTML5
+     servlet:
+       content-type: text/html
+  jpa:
+      show-sql: true
+      generate-ddl: true
+      hibernate:
+        ddl-auto: update
+---
+#dev
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/family?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2b8
+    username: root
+    password: root
+---
+# prod
+spring:
+  profiles: prod
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/family?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2b8
+      username: root
+      password:
+
