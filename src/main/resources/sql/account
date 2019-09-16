@@ -1,0 +1,10 @@
+CREATE TABLE `account` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `student_id` int(11) DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `time` time DEFAULT NULL,
+  `payment_method` varchar(45) DEFAULT NULL COMMENT '''微信，支付宝，现金，北京银行，光大银行，等''',
+  `monthly_knots` tinyint(1) DEFAULT NULL,
+  `money` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
